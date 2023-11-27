@@ -4,6 +4,6 @@ services:
     image: flask_coba
     build: .
     ports:
-      - "5000:5000"
+      - "159.223.71.157:5000:5000"
     environment:
       - EXTERNAL_IP=159.223.71.157
